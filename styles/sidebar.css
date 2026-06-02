@@ -1,0 +1,134 @@
+.sidebar{
+ 
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 50px;
+    z-index: 200;
+    background-color: white;
+    padding-top: 5px;
+}
+.sidebar-link{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.sidebar-link:hover{
+    background-color: rgb(231, 229, 227);
+
+}
+.sidebar img {
+    height: 15px;
+    margin-bottom: 4px;
+
+}
+.sidebar-link div{
+    font-family: Robato,Arial, Helvetica, sans-serif;
+    font-size: 6px;
+  
+    
+}
+ @media(min-width : 1000px){
+    .sidebar-link div{
+    font-family: Robato,Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    }
+    .sidebar{
+    
+        top: 40px;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        width: 72px;
+        z-index: 200;
+        background-color: white;
+        padding-top: 19px;
+    }
+    .sidebar img {
+    height: 19px;
+    margin-bottom: 5px;
+
+}
+    .sidebar-link{
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    }
+    .sidebar-link:hover{
+        background-color: rgb(231, 229, 227);
+
+    }
+    }
+    @media(min-width : 300px) and  ( max-width : 450px){
+        .sidebar{
+            display: none;
+        }
+    }
+    @media  (min-width : 451px) and(max-width:750px){
+        .sidebar-link div{
+    font-family: Robato,Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    }
+    .sidebar{
+    
+        top: 55px;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        width: 72px;
+        z-index: 200;
+        background-color: white;
+        padding-top: 19px;
+    }
+    .sidebar img {
+    height: 16px;
+    margin-bottom: 7px;
+
+}
+    .sidebar-link{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+    }
+    @media(min-width :751px) and (max-width : 999px){
+        .sidebar-link div{
+    font-family: Robato,Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    }
+    .sidebar{
+    
+        top: 55px;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        width: 72px;
+        z-index: 200;
+        background-color: white;
+        padding-top: 19px;
+    }
+    .sidebar img {
+    height: 16px;
+    margin-bottom: 7px;
+
+}
+    .sidebar-link{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+    }
+    

@@ -1,0 +1,42 @@
+    p{
+        font-family: roboto, Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    body{
+        margin: 0;
+        padding-top: 65px;
+        padding-left: 65px;
+        padding-right: 10px;
+        background-color: rgb(242, 237, 237);
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    @media(min-width : 300px) and  ( max-width : 450px){
+       body{
+            padding-top: 70px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    @media (min-width : 451px) and(max-width:750px){
+        body{
+            padding-top: 80px;
+            padding-left: 90px;
+        }
+    }
+    @media(min-width:1000px){
+        body{
+            padding-left: 93px;
+            padding-top: 80px;
+        }
+    }
+    @media(min-width :751px) and (max-width : 999px){
+        body{
+            padding-left:90px;
+            padding-top: 95px;
+        }
+    }
