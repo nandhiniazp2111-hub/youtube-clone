@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .header{
     
     display: flex;
@@ -361,7 +361,7 @@
     flex-shrink: 0;
 }
 
-=======
+}
 .header{
     
     display: flex;
@@ -722,7 +722,5 @@
     justify-content: space-between;
     margin-right: 20px;
     flex-shrink: 0;
-}
-
->>>>>>> 8253e2beabb8fdbd1a2c45c8fdc71e64db3d66a2
     }
+}

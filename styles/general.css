@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
     p{
         font-family: roboto, Arial;
         margin-top: 0;
@@ -40,7 +40,7 @@
             padding-left:90px;
             padding-top: 95px;
         }
-=======
+
     p{
         font-family: roboto, Arial;
         margin-top: 0;
@@ -58,6 +58,7 @@
         text-decoration: none;
         color: black;
     }
+}
     @media(min-width : 300px) and  ( max-width : 450px){
        body{
             padding-top: 70px;
@@ -82,5 +83,4 @@
             padding-left:90px;
             padding-top: 95px;
         }
->>>>>>> 8253e2beabb8fdbd1a2c45c8fdc71e64db3d66a2
     }
